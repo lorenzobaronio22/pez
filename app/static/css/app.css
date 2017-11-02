@@ -1,0 +1,85 @@
+/* Custom font declarations */
+@font-face {
+  font-family: 'Advanced Architecture';
+  src: url("/static/font/advanced_architecture.ttf");
+}
+@font-face {
+  font-family: 'Fabrica';
+  src: url("/static/font/fabrica.otf");
+}
+
+.w3-advance-architect {
+  font-family: "Advanced Architecture", sans-serif;
+}
+.w3-fabrica {
+  font-family: "Fabrica", sans-serif;
+}
+
+/* */
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* sidebar related*/
+#sidebar {
+    width: 20%;
+    min-width: 150px;
+}
+
+#open-close {
+    max-width: 45px;
+}
+/* navbar related */
+#navbar {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+#navbar-logo {
+    text-decoration: none !important;
+}
+
+/* carousel related*/
+#carousel {
+    width: 100%;
+}
+
+/* footer related */
+#footer{
+    width: 100%;
+    max-width: 1000px;
+    border-top: 1px solid grey;
+}
+
+/* varie ed eventuali*/
+
+.bold {
+    font-weight: bold;
+}
+
+.justify {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+.mw-150 {
+    width: 15%;
+    max-width: 150px;
+}
+
+.bottom-border {
+    border-bottom: 5px solid;
+}
+
+.tm-20 {
+    margin-top: 20%;
+}
+
+.tm-10 {
+    margin-top: 10%;
+}
