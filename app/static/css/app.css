@@ -61,12 +61,15 @@ body {
 
 /* varie ed eventuali*/
 
-input[type=text],
-input[type=email] {
+input {
     width: 30%;
     margin: 10px;
     border: none;
     border-bottom: 2px solid black;
+}
+
+input:focus {
+    outline:none;
 }
 
 textarea{
@@ -83,20 +86,20 @@ textarea{
 /*    background: linear-gradient(to bottom right, #fee8e7, #e7f3fe, #edf7ee); /* Standard syntax */
 }
 
-input[type=text]:focus,
-input[type=email]:focus {
-    outline:none;
-}
-
 textarea:focus {
     outline:none;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
 }
 
-input[type=submit],
-input[type=reset] {
+button {
     margin: 5px;
     min-width: 100px;
+    background: white;
+    border: 2px solid black;
+}
+
+button:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
 }
 
 .bold {
