@@ -52,6 +52,12 @@ body {
     border-top: 1px solid grey;
 }
 
+/* map related */
+.map-container {
+    width: 100%;
+    height: 100px;
+}
+
 /* varie ed eventuali*/
 
 .bold {
@@ -80,6 +86,6 @@ body {
     margin-top: 20%;
 }
 
-.tm-10 {
-    margin-top: 10%;
+.bm-15 {
+    margin-bottom: 15%;
 }
