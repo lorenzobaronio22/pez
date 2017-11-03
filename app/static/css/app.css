@@ -35,9 +35,15 @@ body {
     width: 100%;
     font-size: 1.5em;
 }
-
 #navbar-logo {
-    text-decoration: none !important;
+    text-decoration: none;
+}
+.facebook {
+    vertical-align: top;
+    margin-top: 2%;
+}
+.facebook:hover {
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0 , .1);
 }
 
 /* carousel related*/
@@ -46,10 +52,10 @@ body {
 }
 
 /* footer related */
-#footer{
+#footer {
     width: 100%;
     max-width: 1000px;
-    border-top: 1px solid grey;
+    border-top: 1px solid black;
 }
 
 /* map related */
@@ -79,11 +85,6 @@ textarea{
     margin: 10px;
     border: none;
     border-top: 2px solid black;
-/*    background: #f0f0f0; /* For browsers that do not support gradients */
-/*    background: -webkit-linear-gradient(left top, #fee8e7, #e7f3fe, #edf7ee); /* For Safari 5.1 to 6.0 */
-/*    background: -o-linear-gradient(bottom right, #fee8e7, #e7f3fe, #edf7ee); /* For Opera 11.1 to 12.0 */
-/*    background: -moz-linear-gradient(bottom right, #fee8e7, #e7f3fe, #edf7ee); /* For Firefox 3.6 to 15 */
-/*    background: linear-gradient(to bottom right, #fee8e7, #e7f3fe, #edf7ee); /* Standard syntax */
 }
 
 textarea:focus {

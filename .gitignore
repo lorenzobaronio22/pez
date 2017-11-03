@@ -16,3 +16,7 @@ flask/
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# No project's files #
+######################
+todo.txt
