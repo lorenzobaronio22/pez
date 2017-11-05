@@ -39,9 +39,13 @@ body {
 #navbar-logo {
     text-decoration: none;
 }
-.facebook {
-    vertical-align: top;
+#navbar-logo img {
+    vertical-align: bottom;
     margin-top: 2%;
+}
+.facebook {
+    vertical-align: middle;
+    margin-top: 0;
 }
 .facebook:hover {
     box-shadow: 0 0 10px 5px rgba(0, 0, 0 , .1);
