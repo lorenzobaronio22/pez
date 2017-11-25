@@ -10,6 +10,7 @@ function createStaticMarker( markerColor, markerLabel, lat, lng ){
 function showLocation(id, lat, lng){
     var zoom = 9;
     var sensor = true;
+    var api_key="AIzaSyBQCpd1sBrEqAUXE4fbilREy8F5ag1VYlE";
 
     var img = $("<img>");
     img.attr( {
@@ -20,7 +21,8 @@ function showLocation(id, lat, lng){
                 "&zoom=" + zoom +
                 "&size=" + 450 + "x" + 150 +
                 createStaticMarker( "blue", "Ufficio", lat, lng ) +
-                "&sensor=" + sensor
+                "&sensor=" + sensor +
+                "&key=" + api_key
         } );
     img.addClass("w3-image");
 
