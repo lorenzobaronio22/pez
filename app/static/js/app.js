@@ -6,6 +6,10 @@ $(document).ready(function(){
     // facebook icon animation handler
     $('.facebook').hover(facebookHover, facebookOut);
 
+    // Show/Hide ruoli
+    $('.toggle-ruolo').click(showHideRuolo);
+
+
     // play carousel
     myIndex = 0;
     carousel();
@@ -46,4 +50,18 @@ function carousel() {
     if (myIndex > x.length) {myIndex = 1}
     x[myIndex-1].style.display = "block";
     setTimeout(carousel, 3500);
+}
+
+function showHideRuolo() {
+    var ruolo = $(this).next();
+    var freccia = $(this).children("i");
+    if (ruolo.is(":visible")) {
+        ruolo.hide();
+        freccia.removeClass("fa-arrow-up");
+        freccia.addClass("fa-arrow-down");
+    } else {
+        ruolo.show();
+        freccia.removeClass("fa-arrow-down");
+        freccia.addClass("fa-arrow-up");
+    }
 }

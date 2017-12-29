@@ -129,6 +129,9 @@ button:hover {
 .bottom-border {
     border-bottom: 5px solid;
 }
+.bottom-border-slim {
+    border-bottom: 2px solid;
+}
 
 .tm-20 {
     margin-top: 20%;
@@ -136,4 +139,14 @@ button:hover {
 
 .bm-15 {
     margin-bottom: 15%;
+}
+.toggle-ruolo {
+    cursor: pointer;
+}
+.ruolo {
+    display: none;
+}
+
+#casa {
+    margin-top: 30px !important;
 }
