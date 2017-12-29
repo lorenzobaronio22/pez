@@ -1,6 +1,6 @@
 $(document).ready(function(){
-    showLocation("#mappa-reggio", 44.7672772, 10.4316505);
-    showLocation("#mappa-parma", 44.8452426, 10.446284099999957); // Via Santi Faustino e Giovita, 14/16, 43058 Sorbolo PR
+    showLocation("#mappa-sorbolo", 44.8452464, 10.4440954);
+    showLocation("#mappa-parma", 44.7867689, 10.2890886); // Via Santi Faustino e Giovita, 14/16, 43058 Sorbolo PR
 });
 
 function createStaticMarker( markerColor, markerLabel, lat, lng ){
