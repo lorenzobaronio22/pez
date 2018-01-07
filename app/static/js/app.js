@@ -1,4 +1,7 @@
 $(document).ready(function(){
+    // back to top button
+    window.onscroll = function() {scrollFunction()};
+
     // sidebar animation handler
     $('#open-close').click(openCloseSidebar);
     $('#sidebar .w3-button').click(hideSidebar);
@@ -57,11 +60,20 @@ function showHideRuolo() {
     var freccia = $(this).children("i");
     if (ruolo.is(":visible")) {
         ruolo.hide();
-        freccia.removeClass("fa-arrow-up");
-        freccia.addClass("fa-arrow-down");
+        freccia.removeClass("fa-toggle-up");
+        freccia.addClass("fa-toggle-down");
     } else {
         ruolo.show();
-        freccia.removeClass("fa-arrow-down");
-        freccia.addClass("fa-arrow-up");
+        freccia.removeClass("fa-toggle-down");
+        freccia.addClass("fa-toggle-up");
+    }
+}
+
+// back to top button
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        $("#back_to_top").show();
+    } else {
+        $("#back_to_top").hide();
     }
 }
